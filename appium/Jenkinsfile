@@ -16,9 +16,10 @@
                  sh 'npm install --save-dev @wdio/local-runner'
                  sh 'npm install @wdio/mocha-framework --save-dev'
                  sh 'npm install @wdio/spec-reporter --save-dev'
+                 browserStackReportPublisher 'automate'
              }
          }
-        browserStackReportPublisher 'automate'
+
        }
      }
    }
