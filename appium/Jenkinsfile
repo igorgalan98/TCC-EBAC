@@ -8,14 +8,14 @@
                  
                  // add commands to run test
                  // Following are some of the example commands -----
-                 sh 'npm install'
-                 sh 'npm install --save path'
-                 sh 'npm install @wdio/appium-service --save-dev'
-                 sh 'npm install @wdio/browserstack-service --save-dev'
-                 sh 'npm i @wdio/cli'
-                 sh 'npm install --save-dev @wdio/local-runner'
-                 sh 'npm install @wdio/mocha-framework --save-dev'
-                 sh 'npm install @wdio/spec-reporter --save-dev'
+                 bat 'npm install'
+                 bat 'npm install --save path'
+                 bat 'npm install @wdio/appium-service --save-dev'
+                 bat 'npm install @wdio/browserstack-service --save-dev'
+                 bat 'npm i @wdio/cli'
+                 bat 'npm install --save-dev @wdio/local-runner'
+                 bat 'npm install @wdio/mocha-framework --save-dev'
+                 bat 'npm install @wdio/spec-reporter --save-dev'
                  browserStackReportPublisher 'automate'
              }
          }
