@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
 
-                 bat 'npm install <pkg.json>'
+                 bat 'npm install pkg.json'
                  bat 'npm install cypress --save-dev'
             }
         }
