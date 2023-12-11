@@ -16,7 +16,7 @@
                  bat 'npm install --save-dev @wdio/local-runner'
                  bat 'npm install @wdio/mocha-framework --save-dev'
                  bat 'npm install @wdio/spec-reporter --save-dev'
-                 bat 'npm audit fix --force'
+                 bat 'npm audit fix'
                  browserStackReportPublisher 'automate'
              }
          }
