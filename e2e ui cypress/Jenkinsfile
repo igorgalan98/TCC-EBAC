@@ -1,18 +1,13 @@
- pipeline {
-   agent any
-   stages {
-       stage('setup') {
-         steps {
-             browserstack(credentialsId: '<804693d5-c1cb-4bd1-9c12-bd400daace68>') {
-                 echo "This is the config to use this test. :)"
-                 
-                 // add commands to run test
-                 // Following are some of the example commands -----
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+
                  bat 'npm init'
                  bat 'npm install cypress --save-dev'
-             }
-         }
-
-       }
-     }
+            }
+        }
    }
