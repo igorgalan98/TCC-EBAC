@@ -8,7 +8,7 @@
                  
                  // add commands to run test
                  // Following are some of the example commands -----
-                 bat 'npm install'
+                 bat 'npm install package.json'
                  bat 'npm install --save path'
                  bat 'npm install @wdio/appium-service --save-dev'
                  bat 'npm install @wdio/browserstack-service --save-dev'
