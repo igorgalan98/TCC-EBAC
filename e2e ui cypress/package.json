@@ -1,0 +1,17 @@
+{
+  "name": "e2e-ui",
+  "version": "1.0.0",
+  "description": "teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  }
+}
