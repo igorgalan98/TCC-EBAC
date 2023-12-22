@@ -6,7 +6,7 @@ let urlLoja = 'http://lojaebac.ebaconline.art.br/'
 let email = 'lojaebacqe@gmail.com'
 let password = 'GD*peToHNJ1#c$sgk08EaYJQ'
 
-describe('Acces Admin Panel', () => {
+describe('Access Admin Panel', () => {
     it('should login with valid credentials', async () => {
         await homeScreen.goToNext()
         await homeScreen.goToLogin()
